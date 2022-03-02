@@ -1,0 +1,54 @@
+/*Paramètres globaux*/
+
+*{
+    line-height: 1.5em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.16em;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(130deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+    color : #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.wrapper {
+    background-color: #FFFFFF;
+    color : #000000;
+    /* width: 50%; */
+    margin: 2em;
+    padding: 2em;
+}
+
+p{
+    margin-bottom: 2em;
+}
+
+a:visited {
+    color: inherit;
+}
+
+:focus {
+    outline-offset: 3px;
+    outline: 3px dotted blue;
+}
+
+/* Bouton version contrastée */
+
+#contrast-version-button {
+    display: block;
+    border: none;
+    text-align: center;
+    margin: auto;
+    padding: 0.5em;
+    background-color: #000000;
+    color: yellow;
+    font-size: 1em;
+}
+
+/* En-tête et menu */
+
+
