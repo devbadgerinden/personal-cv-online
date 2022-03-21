@@ -1,0 +1,126 @@
+/* CSS ACCESSIBILITES, NE PAS TOUCHER */
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.16em;
+    box-sizing: border-box;
+}
+
+/* p{
+    margin-bottom: 2em;
+} */
+
+*:focus {
+    border: 3px dashed #000000;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000em;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* MISE EN PAGE */
+
+/* Global */
+
+body {
+    background-color: #000000;
+}
+.wrapper {
+    width: 60%;
+    margin: auto;
+    background-color: #F5BC28;
+}
+
+a, a:visited {
+    color : inherit;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 10px;
+}
+
+/* Entête */
+#header {
+    text-align: center;
+    background-color: #dddddd;
+    padding: 50px 0;
+}
+
+#img-container{
+    background-image: url(../img/avatar.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#catchphrase {
+    font-size: 2em;
+}
+
+/* Contenu */
+#main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#left, #right {
+    padding: 15px;
+}
+
+#left h2 {
+    color: #F5BC28;
+}
+
+#left h2, #right h2 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+
+#left {
+    width: 35%;
+    color: #dddddd;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+#right {
+    width: 65%
+}
+
+h3 {
+    background-color: #ddd;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.role {
+    font-style: italic;
+}
+
+/* Pied de page*/
+
+#footer {
+    text-align: center;
+    background-color: #dddddd;
+    padding: 50px
+}
