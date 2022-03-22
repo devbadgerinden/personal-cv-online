@@ -48,25 +48,25 @@ ul {
 #header {
     text-align: center;
     background-color: #dddddd;
-    padding: 50px 0;
+    padding: 10px 0;
 }
 
 #img-container{
     background-image: url(https://devbadgerinden.github.io/personal-cv-online/img/avatar.jpg);
     background-position: center;
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin: auto;
     border-radius: 50%;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 #catchphrase {
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 /* Contenu */
@@ -135,4 +135,85 @@ h1 {
 
 #footer p {
     font-size: .8em;
+}
+
+/* BREAK POINT */
+
+@media only screen and (min-width: 1000px) {
+
+    * {
+        font-size: 16px;
+    }
+
+    #header {
+        padding: 15px 0;
+    }
+    
+    #img-container{
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    #catchphrase {
+        font-size: 1.5em;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+    }
+
+    #main {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    
+    #left {
+        width: 30%;
+    }
+
+    #right {
+        width: 68%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+    * {
+        font-size: 18px;
+    }
+
+    #header {
+        padding: 20px 0;
+    }
+    
+    #img-container{
+        width: 250px;
+        height: 250px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    
+    #catchphrase {
+        font-size: 2em;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+
+    #left {
+        width: 25%;
+    }
+
+    #right {
+        width: 75%;
+    }
 }
