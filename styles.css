@@ -44,8 +44,8 @@ a, a:visited {
 }
 
 ul {
-    list-style-type: square;
-    padding-left: 10px;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 /* Entête */
@@ -94,17 +94,17 @@ h1 {
 }
 
 #left {
-    width: 35%;
+    width: 25%;
     color: #dddddd;
     background-color: #333;
     border-radius: 5px;
 }
 
 #right {
-    width: 65%
+    width: 75%;
 }
 
-h3 {
+#right h3 {
     background-color: #ddd;
     font-size: 1.5em;
     display: flex;
@@ -117,10 +117,28 @@ h3 {
     font-style: italic;
 }
 
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills li {
+    color: #dddddd;
+    background-color: #333;
+    padding: .5em;
+    margin : .5em;
+    border-radius: 5px;
+}
+
 /* Pied de page*/
 
 #footer {
     text-align: center;
     background-color: #dddddd;
-    padding: 50px
+    padding: 10px
+}
+
+#footer p {
+    font-size: .8em;
 }
